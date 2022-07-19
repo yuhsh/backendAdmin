@@ -9,8 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>backend_system</module>
-        <module>backend_common</module>
         <module>backend-system</module>
         <module>backend-common</module>
     </modules>
