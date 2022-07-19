@@ -2,7 +2,7 @@
 后端管理
 
 
-## 本地启动注意实现
+## 本地启动注意事项
 ### 启动redis
 1. 搜索redis资源
     `docker search redis`
