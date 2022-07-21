@@ -5,11 +5,29 @@
     <parent>
         <artifactId>backendAdmin</artifactId>
         <groupId>org.admin.backend</groupId>
-        <version>1.0</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>backend-system</artifactId>
+    <name>后端管理模块</name>
+
+    <properties>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.admin.backend</groupId>
+            <artifactId>backend-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.admin.backend</groupId>
+            <artifactId>backend-logging</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
